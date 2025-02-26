@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from 'react'
-import InputBox from './components/Inputbox'
+import InputBox from './components/InputBox'
 import useCurrencyInfo from './hooks/usecurrencyinfo'
 
 const defaultCurrencies = ["USD", "EUR", "GBP", "INR", "PKR"] // Default options for initial render
